@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/capy-learning",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "User",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "corveda/php-sandbox": "3.*"
+  }
+}

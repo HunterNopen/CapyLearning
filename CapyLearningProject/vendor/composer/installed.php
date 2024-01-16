@@ -1,0 +1,56 @@
+<?php return array(
+    'root' => array(
+        'name' => 'vendor_name/capy-learning',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'corveda/php-sandbox' => array(
+            'pretty_version' => 'v3.0.3',
+            'version' => '3.0.3.0',
+            'reference' => '6c637efe87b398a8960260c2f90ee02800316288',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../corveda/php-sandbox',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'fieryprophet/php-sandbox' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'jeremeamia/functionparser' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => '035b52000b88ea8d72a6647dd4cd39f080cf7ada',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jeremeamia/functionparser',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'nikic/php-parser' => array(
+            'pretty_version' => 'v4.15.5',
+            'version' => '4.15.5.0',
+            'reference' => '11e2663a5bc9db5d714eedb4277ee300403b4a9e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nikic/php-parser',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'vendor_name/capy-learning' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
